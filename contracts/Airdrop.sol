@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract Airdrop {
     /// @dev this is the merkle root computed from the valid addresses
-    bytes32 public merkleRoot = 0x41f2f2dc129fe81af945d37ebff5ed03fae1f76ecdb03481c717d8424d08c208;
+    bytes32 public merkleRoot = 0x2ef65c1a0709bd9f7fdc4cb5950a767c9489f04826d4b6b380de7e00ce4a32a7;
 
     /// @dev this mapping would be used to map users to a bool to make sure the user has not claimed before
     mapping(address => bool) public claimed;
